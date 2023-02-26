@@ -6,7 +6,7 @@ Resources:
     Properties:
       LayerName: DynamodbAccessLayer
       Description: A layer for accessing DynamoDB
-      ContentUri: s3://dynamodb-access-layer-bucket/d41d8cd98f00b204e9800998ecf8427e
+      ContentUri: s3://dynamodb-access-layer-bucket/6e0462ed6cfd8b098b3a258a66be286f
       CompatibleRuntimes:
       - python3.9
       LicenseInfo: MIT

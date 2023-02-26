@@ -7,7 +7,7 @@ Resources:
     Properties:
       LayerName: DynamodbAccessLayer
       Description: A layer for accessing DynamoDB
-      ContentUri: ./layer/
+      ContentUri: ./python
       CompatibleRuntimes:
         - python3.9
       LicenseInfo: MIT
