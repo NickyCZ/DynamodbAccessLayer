@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  DynamodbAccessLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: DynamodbAccessLayer
+      Description: A layer for accessing DynamoDB
+      ContentUri: s3://dynamodb-access-layer-bucket/d41d8cd98f00b204e9800998ecf8427e
+      CompatibleRuntimes:
+      - python3.9
+      LicenseInfo: MIT
+    Metadata:
+      SamResourceId: DynamodbAccessLayer
